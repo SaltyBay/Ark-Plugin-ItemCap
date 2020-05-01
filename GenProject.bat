@@ -14,7 +14,7 @@ set ProjectName=ItemCap
 REM ========================================================
 REM configure description
 REM ========================================================
-set Description=customize message of day  
+set Description=caps for items
 
 REM ========================================================
 REM configure Version
@@ -65,14 +65,14 @@ echo #
 
 cmake .. -G "Visual Studio 15 Win64" ^
      -DProjectName=%ProjectName% ^
-	 -DPATH_ARK_API=%ARK_API_DIR% 
-	 
+     -DPATH_ARK_API=%ARK_API_DIR% 
+     
 if errorlevel 1 pause % exit /b
-	 
+     
 echo #
 echo #    solution has been created in
 echo #    %WORKSPACE_DIR%
-echo #	
+echo #    
 
 
 echo #

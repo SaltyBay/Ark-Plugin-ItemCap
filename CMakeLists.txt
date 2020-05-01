@@ -41,7 +41,7 @@ set_target_properties(ark_api PROPERTIES
 set_target_properties(${ProjectName} PROPERTIES LINKER_LANGUAGE CXX)
 target_link_libraries(${ProjectName} 
 PRIVATE
-	ark_api)
+    ark_api)
 
 
 endif()
